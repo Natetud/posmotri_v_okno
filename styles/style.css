@@ -10,6 +10,7 @@ html {
 
 .page {
   display: flex;
+  position: relative;
   place-items: center;
   inline-size: 1200px;
   block-size: 100%;
@@ -42,7 +43,6 @@ ol {
 
 .content {
   display: flex;
-  position: relative;
   flex-direction: row;
   align-items: flex-end;
   inline-size: 1140px;
