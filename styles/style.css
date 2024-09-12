@@ -10,8 +10,10 @@ html {
 
 .page {
   display: flex;
+  place-items: center;
   inline-size: 1200px;
   block-size: 100%;
+  min-height: 100vh;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -40,17 +42,16 @@ ol {
 
 .content {
   display: flex;
+  position: relative;
   flex-direction: row;
   align-items: flex-end;
-  width: 1140px;
-  height: 534px;
+  inline-size: 1140px;
   gap: 30px;
-  margin: 133px 30px 0 30px;
 }
 
 .result__video-container {
   position: relative;
-  width: 711px;
+  inline-size: 711px;
 }
 
 .result__video {
