@@ -10,7 +10,6 @@ html {
 
 .page {
   display: flex;
-  position: relative;
   place-items: center;
   inline-size: 1200px;
   block-size: 100%;
